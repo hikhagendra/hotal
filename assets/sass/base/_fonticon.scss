@@ -1,0 +1,57 @@
+/* 
+    @package hotaltheme
+*/
+
+/* 
+	Font Icons
+	------------------------------------------------
+*/
+
+@font-face {
+  font-family: 'hotal-icon';
+  src:  url('../fonts/hotal-icon.eot?ue74op');
+  src:  url('../fonts/hotal-icon.eot?ue74op#iefix') format('embedded-opentype'),
+    url('../fonts/hotal-icon.ttf?ue74op') format('truetype'),
+    url('../fonts/hotal-icon.woff?ue74op') format('woff'),
+    url('../fonts/hotal-icon.svg?ue74op#hotal-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.hotal-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'hotal-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hotal-hotal-logo:before {
+  content: "\e900";
+}
+.hotal-menu:before {
+  content: "\e901";
+}
+.hotal-close:before {
+  content: "\e902";
+}
+.hotal-youtube:before {
+  content: "\e903";
+}
+.hotal-facebook:before {
+  content: "\e904";
+}
+.hotal-instagram:before {
+  content: "\e905";
+}
+.hotal-tiktok:before {
+  content: "\e906";
+}
